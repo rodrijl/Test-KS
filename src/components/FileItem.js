@@ -41,11 +41,11 @@ const FileItem = ({patient, savePatient, deletePatient}) => {
      */
     const handleSaveRow = () => {
         const updatedPatient = {
-            name: name,
-            dentist: dentist,
-            xRayPlate: xRayPlate,
-            startTreatment: startTreatment,
-            endTreatment: endTreatment,
+            name,
+            dentist,
+            xRayPlate,
+            startTreatment,
+            endTreatment,
             id: patient.id
         };
         savePatient(updatedPatient);

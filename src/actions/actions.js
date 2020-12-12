@@ -9,7 +9,7 @@ const data = [{
     id: 2,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 
@@ -17,126 +17,126 @@ const data = [{
     id: 3,
     name: 'name2',
     dentist: 'dentist2',
-    xrayplate: 2,
+    xRayPlate: 2,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 4,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 5,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 6,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 7,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 8,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 9,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 10,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 11,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 12,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 13,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 14,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 15,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 16,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 17,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 18,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 19,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 },{
     id: 20,
     name: 'name1',
     dentist: 'dentist1',
-    xrayplate: 3,
+    xRayPlate: 3,
     startTreatment: "2020-04-10",
     endTreatment:"2020-05-10"
 }];
@@ -160,7 +160,7 @@ const getPatientData = (dispatch) =>{
 const savePatient = (dispatch, updatedPatient) => {
     dispatch({
         type: 'SUCCESS_SAVE_PATIENT',
-        updatedPatient: updatedPatient
+        updatedPatient
     });
 };
 
