@@ -16,3 +16,4 @@ Then to start the project run the follwing command:
 ### `npm start`
 
 
+You can find the project here: https://rodrijl.github.io/Test-KS/
